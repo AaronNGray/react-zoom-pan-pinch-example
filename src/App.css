@@ -1,0 +1,47 @@
+#root {
+  position:relative;
+  margin: 0 auto;
+  min-height: 100%;
+  width: 100%;
+}
+#wrapper {
+  position:relative;
+  width: 1470px;
+  max-width: 1470px;
+  min-height: 100%;
+  border: 1px solid red;  
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+#header {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1470px;
+  height: 460px;
+  overflow: hidden;
+}
+#avatar {
+  position: absolute;
+  top: 340px;
+  left: 120px;
+}
+.avatar-img {
+  max-width: 180px;
+  max-height: 180px;
+}
+
